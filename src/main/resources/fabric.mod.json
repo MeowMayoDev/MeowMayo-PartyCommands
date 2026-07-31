@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "meowmayo-pcomms",
+	"version": "${version}",
+	"name": "MeowMayo Party Commands",
+	"description": "mowma!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/meowmayo-pcomms/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.meowmayo.mmpcomms.MeowMayoPartyCommands"
+		],
+		"client": [
+			"dev.meowmayo.mmpcomms.MeowMayoPartyCommandsClient"
+		]
+	},
+	"mixins": [
+		"meowmayo-pcomms.mixins.json",
+		{
+			"config": "meowmayo-pcomms.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*",
+        "meowmayo-core": ">=1.0.1-26.1.2"
+    },
+    "suggests": {
+        "meowmayo-dungeons": ">=1.0.1-26.1.2",
+        "meowmayo-kuudra": ">=1.0.1-26.1.2"
+    }
+}
