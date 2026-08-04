@@ -34,10 +34,10 @@
 		"minecraft": "~26.2",
 		"java": ">=25",
 		"fabric-api": "*",
-        "meowmayo-core": ">=1.0.1-26.2"
+        "meowmayo-core": ">=1.1.0+26.2"
     },
     "suggests": {
-        "meowmayo-dungeons": ">=1.0.1-26.2",
-        "meowmayo-kuudra": ">=1.0.1-26.2"
+        "meowmayo-dungeons": ">=1.0.1+26.2",
+        "meowmayo-kuudra": ">=1.0.1+26.2"
     }
 }
